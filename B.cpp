@@ -24,3 +24,10 @@ public:
         cout << "Método MB2()" << endl;
     }
 };
+
+int main() {
+    B obj;
+    obj.MB1();
+    obj.MB2();
+    return 0;
+}
