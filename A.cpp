@@ -23,4 +23,16 @@ public:
     void MA2() {
         cout << "Método MA2()" << endl;
     }
+
+    void MA3() {
+        cout << "Alteração a classe A a partir do clone" << endl;
+    }
 };
+
+int main() {
+    A obj;
+    obj.MA1();
+    obj.MA2();
+    obj.MA3();
+    return 0;
+}
