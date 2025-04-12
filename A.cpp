@@ -25,7 +25,7 @@ public:
     }
 
     void MA3() {
-        cout << "Alteração a classe A a partir do clone" << endl;
+        cout << "Alteração a Classe A a partir do clone" << endl;
     }
 };
 
