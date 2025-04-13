@@ -23,11 +23,16 @@ public:
     void MB2() {
         cout << "Método MB2()" << endl;
     }
+    
+    void MB3() {
+        cout << "Método MB3()" << endl;
+    }
 };
 
 int main() {
     B obj;
     obj.MB1();
     obj.MB2();
+    obj.MB3();
     return 0;
 }
