@@ -19,6 +19,7 @@ public:
         cout << "Método MD3()" << endl;
     }
     
+
 };
 
 int main() {
@@ -26,5 +27,6 @@ int main() {
     obj.MD1();
     obj.MD2();
     obj.MD3();
+
     return 0;
 }
