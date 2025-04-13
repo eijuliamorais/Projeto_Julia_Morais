@@ -15,10 +15,15 @@ public:
         cout << "Método MD2()" << endl;
     }
 
+
     void MD3() {
         cout << "Método MD3()" << endl;
     }
-    
+
+    void MD4() {
+    cout << "Método MD4()" << endl;
+    }
+
 
 };
 
@@ -27,6 +32,7 @@ int main() {
     obj.MD1();
     obj.MD2();
     obj.MD3();
+    obj.MD4();
 
     return 0;
 }
