@@ -14,11 +14,17 @@ public:
     void MD2() {
         cout << "Método MD2()" << endl;
     }
+
+    void MD4() {
+    cout << "Método MD4()" << endl;
+    }
+
 };
 
 int main() {
     D obj;
     obj.MD1();
     obj.MD2();
+    obj.MD4();
     return 0;
 }
